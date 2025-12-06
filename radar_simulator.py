@@ -176,7 +176,7 @@ if __name__ == "__main__":
     plt.plot(t * 1e3, np.abs(noisy_signal))
     plt.xlabel('Zaman (ms)')
     plt.ylabel('Genlik')
-    plt.title('Radar Pulse Treni (SNR=10dB)')
+    plt.title('Radar Pulse Train (SNR=10dB)')
     plt.grid(True)
     plt.tight_layout()
     plt.savefig('radar_signal_example.png', dpi=150)
